@@ -1,0 +1,7 @@
+feature scaling
+before activation function --> batch normalization
+layer normalization
+weight decay
+early stop
+regualrization
+Dropout layer --> ensemble representation
