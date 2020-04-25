@@ -5,3 +5,7 @@ weight decay
 early stop
 regualrization
 Dropout layer --> ensemble representation
+
+normalization vs regularization
+Normalization 是針對不同屬性的資料可能的範圍不一樣，而把它們縮放成同樣區間的方法。不同的值域，可能會造成計算距離時放大了該屬性的效果，因此通常會把不同的屬性都限定的差不多的範圍內。
+Regularization：維持現有的 features，但是降低部分不重要 feature 的影響力。這對於有著許多 feature 的 hypothesis 很有幫助
